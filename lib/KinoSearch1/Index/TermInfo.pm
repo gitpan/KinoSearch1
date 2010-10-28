@@ -188,13 +188,13 @@ Kino1_TInfo_destroy(TermInfo *tinfo) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::TermInfo - filepointer/statistical data for a Term
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     my $tinfo = KinoSearch1::Index::TermInfo->new(
         $doc_freq,
@@ -204,7 +204,7 @@ KinoSearch1::Index::TermInfo - filepointer/statistical data for a Term
         $index_fileptr
     );
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 The TermInfo contains pointer data indicating where a term can be found in
 various files, plus the document frequency of the term.
@@ -212,22 +212,22 @@ various files, plus the document frequency of the term.
 The index_fileptr member variable is only used if the TermInfo is part of the
 .tii stream; it is a filepointer to a locations in the main .tis file.
 
-=head1 METHODS
+==head1 METHODS
 
-=head2 new
+==head2 new
 
 Constructor.  All 5 arguments are required.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 
 
 

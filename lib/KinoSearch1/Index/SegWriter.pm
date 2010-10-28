@@ -264,24 +264,24 @@ Kino1_SegWriter_write_remapped_norms(OutStream *outstream, SV *doc_map_ref,
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::SegWriter - write one segment of an invindex
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 SegWriter is a conduit through which information fed to InvIndexer passes on
 its way to low-level writers such as FieldsWriter and TermInfosWriter.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

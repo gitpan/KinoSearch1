@@ -84,25 +84,25 @@ U16 Kino1_decode_bigend_U16(void *vbuf) {
 __POD__
 
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::MathUtils - various math utilities
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 Provide various math related utilities, including endcoding/decoding integers
 in guaranteed Big-endian byte order.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

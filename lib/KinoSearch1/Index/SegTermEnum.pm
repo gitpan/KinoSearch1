@@ -569,25 +569,25 @@ Kino1_SegTermEnum_destroy(SegTermEnum *obj) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::SegTermEnum - single-segment TermEnum
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 Single-segment implementation of KinoSearch1::Index::TermEnum.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 
 

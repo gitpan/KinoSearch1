@@ -125,24 +125,24 @@ sub close { }
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Search::Searchable - base class for searching an invindex
 
-=head1 DESCRIPTION 
+==head1 DESCRIPTION 
 
 Abstract base class for objects which search an invindex.  The most prominent
 subclass is KinoSearch1::Searcher.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

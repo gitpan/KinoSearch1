@@ -65,13 +65,13 @@ sub close { shift->{instream}->close }
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::CompoundFileReader - read from a compound file
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     my $comp_file_reader = KinoSearch1::Index::CompoundFileReader->new(
         invindex => $invindex,
@@ -79,7 +79,7 @@ KinoSearch1::Index::CompoundFileReader - read from a compound file
     );
     my $instream = $comp_file_reader->open_instream("$seg_name.fnm");
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 A CompoundFileReader provides access to the files contained within the
 compound file format written by CompoundFileWriter.  The InStream objects it
@@ -87,14 +87,14 @@ spits out behave largely like InStreams opened against discrete files --
 $instream->seek(0) seeks to the beginning of the sub-file, not the beginning
 of the compound file.  
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

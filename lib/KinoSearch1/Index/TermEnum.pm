@@ -64,33 +64,33 @@ sub close { shift->abstract_death }
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::TermEnum - scan through a list of Terms
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     # abstract base class
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 Conceptually, a TermEnum is a array of Term => TermInfo pairs, sorted
 lexically by term field name, then term text.  The implementations in
 KinoSearch1 solve the same problem that tied arrays solve: it is possible to
 iterate through the array while loading as little as possible into memory.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 
 
 

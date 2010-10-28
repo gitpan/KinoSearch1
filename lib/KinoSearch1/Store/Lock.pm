@@ -75,13 +75,13 @@ sub get_lock_name { shift->{lock_name} }
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Store::Lock - mutex lock on an invindex
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     # abstract base class, but here's typical usage:
     
@@ -90,7 +90,7 @@ KinoSearch1::Store::Lock - mutex lock on an invindex
         timeout   => 5000,
     );
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 The Lock class produces an interprocess mutex lock.  It does not rely on
 flock().
@@ -98,15 +98,15 @@ flock().
 Lock must be subclassed, and instances must be constructed using the
 C<make_lock> factory method of KinoSearch1::Store::InvIndex.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 
 

@@ -203,13 +203,13 @@ Kino1_BB_compare(ByteBuf *a, ByteBuf *b) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::ByteBuf - stripped down scalar
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 The ByteBuf is a C struct that's essentially a growable string of char.  It's
 like a stripped down scalar that can only deal with strings.  It knows its own
@@ -217,14 +217,14 @@ size and capacity, so it can contain arbitrary binary data.
 
 "View" ByteBufs don't own their own strings.  
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

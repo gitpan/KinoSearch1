@@ -267,26 +267,26 @@ Kino1_Scorer_destroy(Scorer* scorer) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Search::Scorer - score documents against a Query
 
-=head1 DESCRIPTION 
+==head1 DESCRIPTION 
 
 Abstract base class for scorers.
 
 Scorers iterate through a list of documents, producing score/doc_num pairs for
 further processing, typically by a HitCollector.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

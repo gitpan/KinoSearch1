@@ -4,7 +4,7 @@ use warnings;
 
 use 5.008003;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use constant K_DEBUG => 0;
 
@@ -65,7 +65,7 @@ KinoSearch1 - search engine library
 
 =head1 VERSION
 
-1.00
+1.01
 
 =head1 STABLE FORK
 

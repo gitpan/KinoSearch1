@@ -291,13 +291,13 @@ Kino1_TermDocs_destroy(TermDocs *term_docs) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::TermDocs - retrieve list of docs which contain a Term
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     # abstract base class, but here's how a subclass works:
 
@@ -316,7 +316,7 @@ KinoSearch1::Index::TermDocs - retrieve list of docs which contain a Term
         );
     }
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 Feed a TermDocs object a Term to get docs (and freqs).  If a term is present
 in the portion of an index that a TermDocs subclass is responsible for, the
@@ -324,14 +324,14 @@ object is used to access the doc_nums for the documents in which it appears,
 plus the number of appearances, plus (optionally), the positions at which the
 term appears in the document.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

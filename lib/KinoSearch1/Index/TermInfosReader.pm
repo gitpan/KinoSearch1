@@ -115,13 +115,13 @@ sub close {
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::TermInfosReader - look up Terms in an invindex
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 A TermInfosReader manages the relationship between two SegTermEnum objects - a
 primary and an index.  
@@ -131,14 +131,14 @@ SegTermEnum every time you wanted to know about a Term.  Having an index makes
 the process much quicker, and you need a TermInfosReader to deal with the
 index.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

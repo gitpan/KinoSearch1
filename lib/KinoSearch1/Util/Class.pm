@@ -118,13 +118,13 @@ sub todo_death {
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::Class - class building utility
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     package KinoSearch1::SomePackage::SomeClass;
     use base qw( KinoSearch1::Util::Class );
@@ -140,35 +140,35 @@ KinoSearch1::Util::Class - class building utility
         );
     }
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 KinoSearch1::Util::Class is a class-building utility a la
 L<Class::Accessor|Class::Accessor>, L<Class::Meta|Class::Meta>, etc.  It
 provides four main services:
 
-=over
+==over
 
-=item 1 
+==item 1 
 
 A mechanism for inheriting instance variable declarations.
 
-=item 2 
+==item 2 
 
 A constructor with basic argument checking.
 
-=item 3
+==item 3
 
 Manufacturing of get_xxxx and set_xxxx methods.
 
-=item 4 
+==item 4 
 
 Convenience methods which help in defining abstract classes.
 
-=back
+==back
 
-=head1 VARIABLES
+==head1 VARIABLES
 
-=head2 %instance_vars
+==head2 %instance_vars
 
 The %instance_vars hash, which is always a package global, serves as a
 template for the creation of a hash-based object.  It is built up from all the
@@ -208,9 +208,9 @@ init_instance_vars() must be called from within a BEGIN block and before any
 C<use> directives load a child class -- if children are born before their
 parents, inheritance gets screwed up.
 
-=head1 METHODS
+==head1 METHODS
 
-=head2 new
+==head2 new
 
 A generic constructor with basic argument checking.  new() expects hash-style
 labeled parameters; the label names must be present in the %instance_vars
@@ -220,13 +220,13 @@ After verifying the labeled parameters, new() merges %instance_vars and @_
 into a new object.  It then calls $self->init_instance() before returning the
 blessed reference.
 
-=head2 init_instance
+==head2 init_instance
 
     $self->init_instance();
 
 Perform customized initialization routine.  By default, this is a no-op.
 
-=head2 init_instance_vars
+==head2 init_instance_vars
 
     BEGIN {
         __PACKAGE__->init_instance_vars(
@@ -239,7 +239,7 @@ Package method only.  Creates a package global %instance_vars hash in the
 passed in package which consists of the passed in arguments plus all the
 key-value pairs in the parent class's %instance_vars hash.
 
-=head2 ready_get_set ready_get ready_set
+==head2 ready_get_set ready_get ready_set
 
     # create get_foo(), set_foo(), get_bar(), set_bar() in __PACKAGE__
     BEGIN { __PACKAGE__->ready_get_set(qw( foo bar )) };
@@ -247,7 +247,7 @@ key-value pairs in the parent class's %instance_vars hash.
 Mass manufacture getters and setters.  The setters do not return a meaningful
 value.
 
-=head2 abstract_death unimplemented_death todo_death
+==head2 abstract_death unimplemented_death todo_death
 
     sub an_abstract_method      { shift->abstract_death }
     sub an_unimplemented_method { shift->unimplemented_death }
@@ -264,14 +264,14 @@ intimately familiar with Lucene would expect to find.
 
 todo_death indicates a feature that might get implemented someday.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

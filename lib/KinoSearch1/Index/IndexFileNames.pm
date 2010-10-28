@@ -53,24 +53,24 @@ use constant COMMIT_LOCK_TIMEOUT => 10_000;
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::IndexFileNames - filenames and suffixes used in an invindex
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 This module abstracts the names of the files that make up an invindex,
 similarly to the way InStream and OutStream abstract filehandle operations.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

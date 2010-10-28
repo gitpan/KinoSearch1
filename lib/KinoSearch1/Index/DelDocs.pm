@@ -190,13 +190,13 @@ Kino1_DelDocs_delete_by_term_docs(BitVector* deldocs, TermDocs* term_docs) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::DelDocs - manage documents deleted from an invindex
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 DelDocs provides the low-level mechanisms for declaring a document deleted
 from a segment, and for finding out whether or not a particular document has
@@ -205,13 +205,13 @@ been deleted.
 Note that documents are not actually gone from the invindex until the segment
 gets rewritten.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

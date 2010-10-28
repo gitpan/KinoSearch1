@@ -517,20 +517,20 @@ Kino1_OutStream_destroy(OutStream *outstream) {
 __POD__
 
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Store::OutStream - filehandles for writing invindexes
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     # isa blessed filehandle
 
     my $outstream = $invindex->open_outstream( $filename );
     $outstream->lu_write( 'V8', @eight_vints );
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 The OutStream class abstracts all of KinoSearch1's output operations.  It is
 akin to a narrowly-implemented, specialized IO::File.
@@ -538,7 +538,7 @@ akin to a narrowly-implemented, specialized IO::File.
 Unlike its counterpart InStream, OutStream cannot be assigned an arbitrary
 C<length> or C<offset>.
 
-=head2 lu_write / lu_read template
+==head2 lu_write / lu_read template
 
 lu_write and it's opposite number, InStream's lu_read, provide a
 pack/unpack-style interface for handling primitive data types required by the
@@ -585,14 +585,14 @@ all the items specified by TEMPLATE from the InStream, and lu_write will
 confess() if the number of items in LIST does not match the expression in
 TEMPLATE.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

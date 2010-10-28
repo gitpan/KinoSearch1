@@ -428,25 +428,25 @@ Kino1_PostWriter_write_positions(OutStream *prx_out, ByteBuf *positions) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::PostingsWriter - write postings data to an invindex
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 PostingsWriter creates posting lists.  It writes the frequency and and
 positional data files, plus feeds data to TermInfosWriter.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

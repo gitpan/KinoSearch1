@@ -70,25 +70,25 @@ Kino1_IntMap_get(SV* int_map_ref, I32 orig) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::IntMap - compact array of integers
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 An IntMap is a C array of I32, stored in a scalar.  The get() method returns
 either the number present at the index requested, or undef if either the index
 is out of range or the number at the index is -1.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

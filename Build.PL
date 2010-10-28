@@ -239,4 +239,71 @@ my $builder = Module::Build->new(
     ],
 );
 
+my @no_index_files = qw(
+    buildlib/KinoSearch1/Test/TestUtils.pm
+    devel/dump_index
+    devel/hexdebug
+    devel/kinotidy
+    devel/kinotidyrc
+    devel/predit
+    devel/scan_enum.plx
+    devel/test_tidiness.plx
+    devel/valgrind_test.plx
+    lib/KinoSearch1/Index/CompoundFileReader.pm
+    lib/KinoSearch1/Index/CompoundFileWriter.pm
+    lib/KinoSearch1/Index/DelDocs.pm
+    lib/KinoSearch1/Index/FieldInfos.pm
+    lib/KinoSearch1/Index/FieldsReader.pm
+    lib/KinoSearch1/Index/FieldsWriter.pm
+    lib/KinoSearch1/Index/IndexFileNames.pm
+    lib/KinoSearch1/Index/IndexReader.pm
+    lib/KinoSearch1/Index/MultiReader.pm
+    lib/KinoSearch1/Index/MultiTermDocs.pm
+    lib/KinoSearch1/Index/NormsReader.pm
+    lib/KinoSearch1/Index/PostingsWriter.pm
+    lib/KinoSearch1/Index/SegInfos.pm
+    lib/KinoSearch1/Index/SegReader.pm
+    lib/KinoSearch1/Index/SegTermDocs.pm
+    lib/KinoSearch1/Index/SegTermEnum.pm
+    lib/KinoSearch1/Index/SegWriter.pm
+    lib/KinoSearch1/Index/TermBuffer.pm
+    lib/KinoSearch1/Index/TermDocs.pm
+    lib/KinoSearch1/Index/TermEnum.pm
+    lib/KinoSearch1/Index/TermInfo.pm
+    lib/KinoSearch1/Index/TermInfosReader.pm
+    lib/KinoSearch1/Index/TermInfosWriter.pm
+    lib/KinoSearch1/Index/TermVector.pm
+    lib/KinoSearch1/Search/BooleanClause.pm
+    lib/KinoSearch1/Search/BooleanScorer.pm
+    lib/KinoSearch1/Search/HitCollector.pm
+    lib/KinoSearch1/Search/HitQueue.pm
+    lib/KinoSearch1/Search/PhraseScorer.pm
+    lib/KinoSearch1/Search/Scorer.pm
+    lib/KinoSearch1/Search/Searchable.pm
+    lib/KinoSearch1/Search/TermScorer.pm
+    lib/KinoSearch1/Search/Weight.pm
+    lib/KinoSearch1/Store/FSLock.pm
+    lib/KinoSearch1/Store/InStream.pm
+    lib/KinoSearch1/Store/Lock.pm
+    lib/KinoSearch1/Store/OutStream.pm
+    lib/KinoSearch1/Store/RAMLock.pm
+    lib/KinoSearch1/Util/BitVector.pm
+    lib/KinoSearch1/Util/ByteBuf.pm
+    lib/KinoSearch1/Util/Carp.pm
+    lib/KinoSearch1/Util/CClass.pm
+    lib/KinoSearch1/Util/Class.pm
+    lib/KinoSearch1/Util/IntMap.pm
+    lib/KinoSearch1/Util/MathUtils.pm
+    lib/KinoSearch1/Util/MemManager.pm
+    lib/KinoSearch1/Util/PriorityQueue.pm
+    lib/KinoSearch1/Util/SortExternal.pm
+    lib/KinoSearch1/Util/StringHelper.pm
+    lib/KinoSearch1/Util/ToolSet.pm
+    lib/KinoSearch1/Util/ToStringUtils.pm
+    lib/KinoSearch1/Util/VerifyArgs.pm
+);
+
+$builder->meta_add( { no_index => { files => \@no_index_files } } );
+
 $builder->create_build_script();
+

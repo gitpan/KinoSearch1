@@ -70,17 +70,21 @@ sub to_string {
 
 1;
 
-=begin devdocs
+__END__
 
-=head1 NAME
+__POD__
+
+==begin devdocs
+
+==head1 NAME
 
 KinoSearch1::Search::Weight - Searcher-dependent transformation of a Query
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
 
     # abstract base class
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 In one sense, a Weight is the weight of a Query object.  Conceptually, a
 Query's "weight" ought to be a single number: a co-efficient... and indeed,
@@ -89,14 +93,14 @@ eventually a Weight object gets turned into a $weight_value.
 However, since calculating that multiplier is rather complex, the calculations
 are encapsulated within a class.  
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

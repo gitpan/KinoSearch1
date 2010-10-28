@@ -87,13 +87,13 @@ Kino1_HitQ_less_than(SV* a, SV* b) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Search::HitQueue - track highest scoring docs
 
-=head1 DESCRIPTION 
+==head1 DESCRIPTION 
 
 HitQueue, a subclass of KinoSearch1::Util::PriorityQueue, keeps track of
 score/doc_num pairs.  Each pair is stored in a single scalar, with the
@@ -103,13 +103,13 @@ The encoding algorithm is functionally equivalent to this:
     my $encoded_doc_num = pack('N', $doc_num);
     my $doc_num_slash_score = dualvar( $score, $encoded_doc_num );
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

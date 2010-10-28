@@ -337,31 +337,31 @@ Kino1_Sim_destroy(Similarity *sim) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Search::Similarity - calculate how closely two items match
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 The Similarity class encapsulates some of the math used when calculating
 scores.
 
 TitleSimilarity is tuned for best results with title fields.
 
-=head1 SEE ALSO
+==head1 SEE ALSO
 
 The Lucene equivalent of this class provides a thorough discussion of the
 Lucene scoring algorithm, which KinoSearch1 implements.  
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

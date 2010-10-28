@@ -240,7 +240,7 @@ results will be limited to only those documents which pass through the filter.
 
 When a Searcher is created, a small portion of the invindex is loaded into
 memory.  For large document collections, this startup time may become
-noticable, in which case reusing the searcher is likely to speed up your
+noticeable, in which case reusing the searcher is likely to speed up your
 search application.  Caching a Searcher is especially helpful when running a
 high-activity app under mod_perl.
 
@@ -255,4 +255,4 @@ Copyright 2005-2010 Marvin Humphrey
 
 =head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.

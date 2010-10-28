@@ -431,13 +431,13 @@ Kino1_PriQ_dump(PriorityQueue *pq) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::PriorityQueue - classic heap sort / priority queue 
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 PriorityQueue implements a textbook heap-sort/priority-queue algorithm.  This
 particular variant leaves slot 0 in the queue open in order to keep the
@@ -452,14 +452,14 @@ other C routines without expensive callbacks to Perl.
 Subclass constructors must redefine the C pointer-to-function, less_than. The
 default behavior is to compare the SvIV value of two scalars.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

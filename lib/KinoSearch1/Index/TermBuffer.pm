@@ -174,24 +174,24 @@ Kino1_TermBuf_destroy(TermBuffer *term_buf) {
 __POD__
 
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::TermBuffer - decode a term dictionary one Term at a time
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 A TermBuffer iterates through a term dictionary, holding one current term in a
 buffer.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

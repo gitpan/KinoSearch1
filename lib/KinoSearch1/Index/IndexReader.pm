@@ -207,13 +207,13 @@ sub close { shift->abstract_death }
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::IndexReader - base class for objects which read invindexes
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 There are two subclasses of the abstract base class IndexReader: SegReader,
 which reads a single segment, and MultiReader, which condenses the output of
@@ -223,13 +223,13 @@ SegReader is in effect a complete index reader.
 The constructor for IndexReader returns either a SegReader if the index has
 only one segment, or a MultiReader if there are multiple segments.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

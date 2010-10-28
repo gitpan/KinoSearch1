@@ -48,25 +48,25 @@ void Kino1_confess (char* pat, ...) {
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::Carp - stack traces from C
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 This module makes it possible to invoke Carp::confess() from C.  Modules that
 use it will need to "use Carp;" -- which is usually taken care of by "use
 KinoSearch1::Util::ToolSet;".
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

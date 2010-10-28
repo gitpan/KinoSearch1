@@ -70,26 +70,26 @@ sub finish {
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::CompoundFileWriter - consolidate invindex files
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 CompoundFileWriter takes a list of pre-existing files and writes a new file
 which combines them into one.  It writes a header containing filenames and
 filepointers, then writes a data section containing file content.  The
 original files are not deleted, so cleanup must be done externally.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

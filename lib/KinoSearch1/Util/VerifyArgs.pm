@@ -146,23 +146,23 @@ Kino1_Verify_extract_arg(HV* hash, char* key, I32 key_len) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::VerifyArgs - some validation functions
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 Provide some utility functions under the general heading of "verification".
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS etc.
+==head1 LICENSE, DISCLAIMER, BUGS etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

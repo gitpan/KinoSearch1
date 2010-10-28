@@ -590,26 +590,26 @@ Kino1_BitVec_destroy(BitVector* bit_vec) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::BitVector - a set of bits
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 A vector of bits, which grows as needed.  The implementation is designed to
 resemble both org.apache.lucene.util.BitVector and java.util.BitSet.  
 Accessible from both C and Perl.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

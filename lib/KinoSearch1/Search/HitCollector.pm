@@ -398,13 +398,13 @@ Kino1_HC_destroy(HitCollector *hc) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Search::HitCollector - process doc/score pairs
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 A Scorer spits out raw doc_num/score pairs; a HitCollector decides what to do
 with them, based on the hc->collect method.
@@ -418,15 +418,15 @@ are irrelevant).
 A FilterCollector wraps another HitCollector, only allowing the inner
 collector to "see" doc_num/score pairs which make it through the filter.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 
 

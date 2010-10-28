@@ -581,20 +581,20 @@ Kino1_InStream_destroy(InStream* instream) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Store::InStream - filehandles for reading invindexes
 
-=head1 SYNOPSIS
+==head1 SYNOPSIS
     
     # isa blessed filehandle
     
     my $instream  = $invindex->open_instream( $filehandle, $offset, $length );
     my @ten_vints = $instream->lu_read('V10');
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 The InStream class abstracts out all input operations to KinoSearch1.
 
@@ -607,14 +607,14 @@ be reading only a portion of a compound file.
 For the template used by lu_read, see InStream's companion,
 L<OutStream|KinoSearch1::Store::OutStream>.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

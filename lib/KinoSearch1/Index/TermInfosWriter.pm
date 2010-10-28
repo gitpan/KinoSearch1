@@ -325,25 +325,25 @@ Kino1_TInfosWriter_destroy(TermInfosWriter *obj) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::TermInfosWriter - write a term dictionary
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 The TermInfosWriter write both parts of the term dictionary.  The primary
 instance creates a shadow TermInfosWriter that writes the index.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

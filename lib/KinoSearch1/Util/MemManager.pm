@@ -89,13 +89,13 @@ Kino1_savepvn_wrapper(const char* pv, I32 len) {
 
 __POD__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Util::MemManager - wrappers which aid memory debugging
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 In normal mode, the C functions in this module are macro aliases for Perl's
 memory management tools.  In debug mode, memory management passes through
@@ -103,13 +103,13 @@ local functions which make hunting down bugs with Valgrind easier.
 
 No Perl interface.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut

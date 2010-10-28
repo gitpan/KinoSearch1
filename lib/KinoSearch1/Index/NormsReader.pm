@@ -40,29 +40,29 @@ sub close { shift->{instream}->close }
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::NormsReader - read field normalization data
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 NormsReader accesses the encoded norms which are built up, one byte per
 document, for indexed fields.
 
-=head1 SEE ALSO
+==head1 SEE ALSO
 
 L<KinoSearch1::Search::Similarity|KinoSearch1::Search::Similarity>
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
 

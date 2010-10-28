@@ -123,26 +123,26 @@ sub close {
 
 __END__
 
-=begin devdocs
+==begin devdocs
 
-=head1 NAME
+==head1 NAME
 
 KinoSearch1::Index::FieldsReader - retrieve stored documents
 
-=head1 DESCRIPTION
+==head1 DESCRIPTION
 
 FieldsReader's purpose is to retrieve stored documents from the invindex.  In
 addition to returning fully decoded Doc objects, it can pass on raw data --
 for instance, compressed fields stay compressed -- for the purpose of
 merging segments efficiently.
 
-=head1 COPYRIGHT
+==head1 COPYRIGHT
 
 Copyright 2005-2010 Marvin Humphrey
 
-=head1 LICENSE, DISCLAIMER, BUGS, etc.
+==head1 LICENSE, DISCLAIMER, BUGS, etc.
 
-See L<KinoSearch1> version 1.00.
+See L<KinoSearch1> version 1.01.
 
-=end devdocs
-=cut
+==end devdocs
+==cut
